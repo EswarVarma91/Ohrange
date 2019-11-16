@@ -1,0 +1,4 @@
+#Sun Nov 10 14:57:10 IST 2019
+base.0=/Users/eswarvarmapanumetcha/mobile_app_development/projects/ohrange/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
