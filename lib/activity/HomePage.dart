@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ohrange/activity/ItemView.dart';
+import 'package:dio/dio.dart';
+
+import '../config/Config.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -8,6 +11,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  @override
+  void initState() {
+    super.initState();
+    getCategories();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -241,5 +250,18 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
     );
+  }
+
+   getCategories() async {
+    var dio = Dio();
+    FormData formData = new FormData.fromMap({
+    "srv": "category",
+    "method": "GetCatServices",
+  });
+    var response = await dio.post(Config.services,
+    data: formData,
+    options: Options(responseType: ResponseType.json));
+    print(response.data);
+
   }
 }

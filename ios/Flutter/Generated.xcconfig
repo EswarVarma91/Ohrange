@@ -1,7 +1,7 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/eswarvarmapanumetcha/mobile_app_development/flutter_sdk
-FLUTTER_APPLICATION_PATH=/Users/eswarvarmapanumetcha/mobile_app_development/projects/ohrange
-FLUTTER_TARGET=/Users/eswarvarmapanumetcha/mobile_app_development/projects/ohrange/lib/main.dart
+FLUTTER_APPLICATION_PATH=/Users/eswarvarmapanumetcha/mobile_app_development/github/Ohrange
+FLUTTER_TARGET=/Users/eswarvarmapanumetcha/mobile_app_development/github/Ohrange/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_FRAMEWORK_DIR=/Users/eswarvarmapanumetcha/mobile_app_development/flutter_sdk/bin/cache/artifacts/engine/ios
